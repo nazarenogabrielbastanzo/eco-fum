@@ -136,3 +136,7 @@ h2.services {
 .last {
     border-radius: 0px 0px 0px 100px;
 }
+
+.bold {
+    font-weight: 500;
+}
