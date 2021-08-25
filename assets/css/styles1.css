@@ -15,6 +15,11 @@
     min-height: 100vh;
 }
 
+.main1:nth-child(4n) .col:nth-child(2n) {
+    background-color: white;
+    min-height: 100vh;
+}
+
 .main1 .col:nth-child(2n) .wrapper {
     margin-left: 140px;
     margin-top: 135px;
@@ -51,6 +56,15 @@
     background-color: #539920;
 }
 
+.main1:nth-child(4n) .col:nth-child(2n) h2 {
+    margin-top: 30px;
+    display: inline-block;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 183px;
+    border-radius: 15px 0px 0px 15px;
+}
+
 .main1 p {
     font-size: 23px;
     margin-top: 5px;
@@ -59,6 +73,20 @@
     margin-right: 120px;
     border-left: 7px solid #539920;
     line-height: normal;
+}
+
+.main1:nth-child(4n) p {
+    border: 0px;
+    margin-left: 0px;
+}
+
+.main1:nth-child(4n) h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: #539920;
 }
 
 h2.services {
