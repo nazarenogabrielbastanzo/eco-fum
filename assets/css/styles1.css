@@ -45,7 +45,7 @@
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 15px;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 15px 15px 0px;
     display: inline-block;
     text-align: center;
     background-color: #539920;
@@ -67,7 +67,7 @@ h2.services {
     padding-right: 294px;
     padding-left: 15px;
     padding-top: 5px;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 15px 0px 0px 15px;
     margin-bottom: 50px;
     background-color: white;
 }
