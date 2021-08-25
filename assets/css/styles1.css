@@ -4,6 +4,12 @@
     padding: 0px;
 }
 
+.main1 .col:first-child img {
+    margin-top: 85px;
+    margin-bottom: 64px;
+    margin-left: 100px;
+}
+
 .main1 .col:nth-child(2n) {
     background-color: #539920;
     min-height: 100vh;
