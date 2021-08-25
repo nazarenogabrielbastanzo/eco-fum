@@ -1,0 +1,56 @@
+.container-fluid {
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main1 .col:nth-child(2n) {
+    background-color: #539920;
+    min-height: 100vh;
+}
+
+.main1 .col:nth-child(2n) .wrapper {
+    margin-left: 140px;
+    margin-top: 135px;
+}
+
+.main1 .col:nth-child(2n) .wrapper img {
+    margin-bottom: 50px;
+}
+
+.main1 .col:nth-child(2n) .wrapper td:first-child {
+    text-align: right;
+}
+
+.main1 .col:nth-child(2n) .wrapper td:nth-child(2n) {
+    padding-left: 15px;
+    color: white;
+    font-size: 20px;
+    vertical-align: text-top;
+    padding-top: 35px;
+}
+
+.main1 h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin-top: 165px;
+    margin-left: 0px;
+    padding-left: 215px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    border-radius: 0px 10px 10px 0px;
+    display: inline-block;
+    text-align: center;
+    background-color: #539920;
+}
+
+.main1 p {
+    font-size: 23px;
+    margin-top: 5px;
+    margin-left: 70px;
+    padding-left: 20px;
+    margin-right: 120px;
+    border-left: 7px solid #539920;
+    line-height: normal;
+}
