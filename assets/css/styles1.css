@@ -75,9 +75,9 @@
     line-height: normal;
 }
 
-.main1:nth-child(4n) p {
+.main1:nth-child(4n) .col:nth-child(2n) p {
+    margin: 0px;
     border: 0px;
-    margin-left: 0px;
 }
 
 .main1:nth-child(4n) h3 {
