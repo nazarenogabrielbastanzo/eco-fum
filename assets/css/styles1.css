@@ -99,3 +99,32 @@ h2.services {
     margin-bottom: 50px;
     background-color: white;
 }
+
+.container-fluid:nth-child(2n) {
+    background: url('../img/carpeta1/bg.jpg');
+}
+
+.container-fluid:nth-child(2n) .main1 {
+    width: 50%;
+    margin: auto;
+}
+
+.container-fluid:nth-child(2n) .main1 h2 {
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.container-fluid:nth-child(2n) .main1 span {
+    color: #115921;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.container-fluid:nth-child(2n) i {
+    font-size: 60px;
+    color: #539920;
+    margin-right: 20px;
+    margin-top: 20px;
+}
