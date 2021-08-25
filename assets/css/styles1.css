@@ -60,3 +60,14 @@
     border-left: 7px solid #539920;
     line-height: normal;
 }
+
+h2.services {
+    color: #539920;
+    margin-top: 0px;
+    padding-right: 294px;
+    padding-left: 15px;
+    padding-top: 5px;
+    border-radius: 10px 0px 0px 10px;
+    margin-bottom: 50px;
+    background-color: white;
+}
