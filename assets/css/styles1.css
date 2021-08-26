@@ -117,9 +117,13 @@ h2.services {
 }
 
 .container-fluid:nth-child(2n) .main1 span {
-    color: #115921;
     font-size: 30px;
     font-weight: 500;
+}
+
+.container-fluid:nth-child(2n) .main1 a {
+    text-decoration: none;
+    color: #115921;
 }
 
 .container-fluid:nth-child(2n) i {
