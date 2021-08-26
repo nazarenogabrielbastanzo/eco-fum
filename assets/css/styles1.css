@@ -28,6 +28,7 @@
 
 .main1 .col:nth-child(2n) .wrapper img {
     margin-bottom: 50px;
+    border-radius: 20px;
 }
 
 .main1 .col:nth-child(2n) .wrapper td:first-child {
@@ -150,11 +151,11 @@ h2.services {
 }
 
 .second {
-    border-radius: 100px 0px 0px 0px;
+    border-radius: 200px 0px 0px 0px;
 }
 
 .last {
-    border-radius: 0px 0px 0px 100px;
+    border-radius: 0px 0px 0px 200px;
 }
 
 .bold {
