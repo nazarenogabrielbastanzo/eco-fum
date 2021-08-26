@@ -21,7 +21,8 @@
 }
 
 .main1 .col:nth-child(2n) .wrapper {
-    margin-left: 140px;
+    /* margin-left: 140px; */
+    margin-left: 12%;
     margin-top: 135px;
 }
 
@@ -44,9 +45,10 @@
 .main1 h2 {
     font-family: 'Open Sans', sans-serif;
     color: white;
-    margin-top: 165px;
+    /* margin-top: 165px; */
     margin-left: 0px;
-    padding-left: 215px;
+    /* padding-left: 215px; */
+    padding-left: 12%;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 15px;
@@ -61,18 +63,25 @@
     display: inline-block;
     text-align: center;
     padding-left: 15px;
-    padding-right: 183px;
-    border-radius: 15px 0px 0px 15px;
+    /* padding-right: 183px; */
+    padding-right: 12%;
+    /* border-radius: 15px 0px 0px 15px; */
+    border-radius: 15px;
 }
 
 .main1 p {
-    font-size: 23px;
-    margin-top: 5px;
-    margin-left: 70px;
+    /* font-size: 23px; */
+    font-size: 1.5rem;
+    /* margin-top: 5px; */
+    /* margin-left: 70px; */
     padding-left: 20px;
-    margin-right: 120px;
+    /* margin-right: 120px; */
     border-left: 7px solid #539920;
     line-height: normal;
+}
+
+.card {
+    /* width: 100%; */
 }
 
 .main1:nth-child(4n) .col:nth-child(2n) p {
@@ -92,10 +101,12 @@
 h2.services {
     color: #539920;
     margin-top: 0px;
-    padding-right: 294px;
+    /* padding-right: 294px; */
+    padding-right: 12%;
     padding-left: 15px;
     padding-top: 5px;
-    border-radius: 15px 0px 0px 15px;
+    /* border-radius: 15px 0px 0px 15px; */
+    border-radius: 15px;
     margin-bottom: 50px;
     background-color: white;
 }
@@ -105,19 +116,23 @@ h2.services {
 }
 
 .container-fluid:nth-child(2n) .main1 {
-    width: 50%;
-    margin: auto;
+    /* width: 50%; */
+    /* margin: auto; */
+    margin-left: 12%;
 }
 
 .container-fluid:nth-child(2n) .main1 h2 {
-    padding-left: 200px;
-    padding-right: 200px;
+    /* padding-left: 200px; */
+    padding-left: 12%;
+    /* padding-right: 200px; */
+    padding-right: 12%;
     text-align: center;
     border-radius: 15px 15px 15px 15px;
 }
 
 .container-fluid:nth-child(2n) .main1 span {
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -127,7 +142,8 @@ h2.services {
 }
 
 .container-fluid:nth-child(2n) i {
-    font-size: 60px;
+    /* font-size: 60px; */
+    font-size: 1.5rem;
     color: #539920;
     margin-right: 20px;
     margin-top: 20px;
@@ -143,4 +159,8 @@ h2.services {
 
 .bold {
     font-weight: 500;
+}
+
+.card {
+    border: 0px;
 }
